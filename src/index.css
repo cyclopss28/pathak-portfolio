@@ -20,6 +20,39 @@ body {
     }
   }
 
+  @keyframes fadeInLeft {
+    from {
+      transform: translateX(-50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInRight {
+    from {
+      transform: translateX(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateX(0);
+      opacity: 1;
+    }
+  }
+
+  @keyframes fadeInUp {
+    from {
+      transform: translateY(50px);
+      opacity: 0;
+    }
+    to {
+      transform: translateY(0);
+      opacity: 1;
+    }
+  }
+
   .animate-blink {
     animation: blink 0.8s step-end infinite;
   }

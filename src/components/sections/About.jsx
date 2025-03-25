@@ -2,14 +2,14 @@ import { RevealOnScroll } from "../RevealOnScroll";
 
 export const About = () => {
   const frontendSkills = [
+    "HTML",
+    "CSS",
+    "Javascript",
     "React",
-    "Vue",
-    "TypeScript",
     "TailwindCSS",
-    "Svelte",
   ];
 
-  const backendSkills = ["Node.js", "Python", "AWS", "MongoDB", "GraphQL"];
+  const backendSkills = ["Node.js", "C++", "Azure", "MongoDB", "SQL"];
 
   return (
     <section
@@ -26,7 +26,7 @@ export const About = () => {
           <div className="rounded-xl p-8 border-white/10 border hover:-translate-y-1 transition-all">
             <p className="text-gray-300 mb-6">
               Passionate developer with expertise in building scalable web
-              applications and creating innovative solutions.
+              applications and creating innovative solutions using MERN stack.
             </p>
 
             <div className="grid grid-cols-1 md:grid-cols-2 gap-6">
@@ -69,12 +69,13 @@ export const About = () => {
               <h3 className="text-xl font-bold mb-4"> 🏫 Education </h3>
               <ul className="list-disc list-inside text-gray-300 space-y-2">
                 <li>
-                  <strong> B.S. in Computer Science </strong> - XYZ University
-                  (2016-2020)
+                  <strong> B. Tech. in Computer Science & Engineering </strong> - SRMIST NCR Campus
+                  (2021-2025)
                 </li>
                 <li>
-                  Relevant Coursework: Data Structures, Web Development, Cloud
-                  Computing...
+                  Certifications: Cloud Computing And Distributed Systems (NPTEL 2024), 
+                  Big Data Technologies (CDAC Noida 2023), 
+                  MongoDB Program for Students (MongoDb University 2024)
                 </li>
               </ul>
             </div>
@@ -84,22 +85,13 @@ export const About = () => {
                 <div>
                   <h4 className="font-semibold">
                     {" "}
-                    Software Engineer at ABC Corp (2020 - Present){" "}
+                    AI Trainer at Outlier AI (2024 - Present){" "}
                   </h4>
                   <p>
-                    Developed and maintained microservices for cloud-based
-                    applications.
-                  </p>
-                </div>
-
-                <div>
-                  <h4 className="font-semibold">
-                    {" "}
-                    Intern at DEF Startups (2019){" "}
-                  </h4>
-                  <p>
-                    Assisted in building front-end components and integration
-                    REST APIs
+                  As an AI Model Trainer, I evaluate and review AI model
+                  responses based on specific criteria, such as instruction
+                  following, content conciseness, completeness, and
+                  collaborativeness.
                   </p>
                 </div>
               </div>
